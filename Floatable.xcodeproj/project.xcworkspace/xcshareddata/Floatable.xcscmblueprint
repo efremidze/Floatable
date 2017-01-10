@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5A11FA108B0785AC0104AE830A6F7E1A606A1DA1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5A11FA108B0785AC0104AE830A6F7E1A606A1DA1" : 9223372036854775807,
+    "35437E58CEA477B442667A45CA0DAAF68B67C7AD" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "683FFAFB-AE9D-45F1-B0C9-CA7B0A94AE81",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5A11FA108B0785AC0104AE830A6F7E1A606A1DA1" : "Floatable\/",
+    "35437E58CEA477B442667A45CA0DAAF68B67C7AD" : "Floatable\/Floatable\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Floatable",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Floatable.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CocoaPods\/pod-template.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "35437E58CEA477B442667A45CA0DAAF68B67C7AD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/efremidze\/Floatable.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5A11FA108B0785AC0104AE830A6F7E1A606A1DA1"
+    }
+  ]
+}
