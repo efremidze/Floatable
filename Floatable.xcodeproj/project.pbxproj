@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8BB731301E24EC2C00520A45 /* Floatable.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB7312E1E24EC2C00520A45 /* Floatable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3123951E35AB2F00FF5279 /* Floatable.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3123921E35AB2F00FF5279 /* Floatable.h */; };
+		8B3123961E35AB2F00FF5279 /* Floatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3123931E35AB2F00FF5279 /* Floatable.swift */; };
+		8B3123971E35AB2F00FF5279 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B3123941E35AB2F00FF5279 /* Info.plist */; };
 		8BB7313D1E24EC5100520A45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7313C1E24EC5100520A45 /* AppDelegate.swift */; };
 		8BB7313F1E24EC5100520A45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7313E1E24EC5100520A45 /* ViewController.swift */; };
 		8BB731421E24EC5100520A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB731401E24EC5100520A45 /* Main.storyboard */; };
@@ -16,9 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B3123921E35AB2F00FF5279 /* Floatable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Floatable.h; path = Sources/Floatable.h; sourceTree = SOURCE_ROOT; };
+		8B3123931E35AB2F00FF5279 /* Floatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Floatable.swift; path = Sources/Floatable.swift; sourceTree = SOURCE_ROOT; };
+		8B3123941E35AB2F00FF5279 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
 		8BB7312B1E24EC2C00520A45 /* Floatable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Floatable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BB7312E1E24EC2C00520A45 /* Floatable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Floatable.h; sourceTree = "<group>"; };
-		8BB7312F1E24EC2C00520A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BB7313A1E24EC5100520A45 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB7313C1E24EC5100520A45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BB7313E1E24EC5100520A45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,8 +70,9 @@
 		8BB7312D1E24EC2C00520A45 /* Floatable */ = {
 			isa = PBXGroup;
 			children = (
-				8BB7312E1E24EC2C00520A45 /* Floatable.h */,
-				8BB7312F1E24EC2C00520A45 /* Info.plist */,
+				8B3123921E35AB2F00FF5279 /* Floatable.h */,
+				8B3123931E35AB2F00FF5279 /* Floatable.swift */,
+				8B3123941E35AB2F00FF5279 /* Info.plist */,
 			);
 			path = Floatable;
 			sourceTree = "<group>";
@@ -93,7 +97,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BB731301E24EC2C00520A45 /* Floatable.h in Headers */,
+				8B3123951E35AB2F00FF5279 /* Floatable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +151,7 @@
 				TargetAttributes = {
 					8BB7312A1E24EC2C00520A45 = {
 						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					8BB731391E24EC5100520A45 = {
@@ -179,6 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3123971E35AB2F00FF5279 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3123961E35AB2F00FF5279 /* Floatable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -321,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -335,17 +342,19 @@
 		8BB731341E24EC2C00520A45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Floatable/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.efremidze.Floatable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -353,12 +362,13 @@
 		8BB731351E24EC2C00520A45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Floatable/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.efremidze.Floatable;
@@ -420,6 +430,7 @@
 				8BB7314A1E24EC5100520A45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
