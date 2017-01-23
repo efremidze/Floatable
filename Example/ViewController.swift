@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Floatable
 
 class ViewController: UIViewController {
 

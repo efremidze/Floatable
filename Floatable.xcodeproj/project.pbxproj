@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B3123951E35AB2F00FF5279 /* Floatable.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3123921E35AB2F00FF5279 /* Floatable.h */; };
-		8B3123961E35AB2F00FF5279 /* Floatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3123931E35AB2F00FF5279 /* Floatable.swift */; };
-		8B3123971E35AB2F00FF5279 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B3123941E35AB2F00FF5279 /* Info.plist */; };
+		8B4AB2A71E35B13F00E13FED /* Floatable.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4AB2A41E35B13F00E13FED /* Floatable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B4AB2A81E35B13F00E13FED /* Floatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4AB2A51E35B13F00E13FED /* Floatable.swift */; };
 		8BB7313D1E24EC5100520A45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7313C1E24EC5100520A45 /* AppDelegate.swift */; };
 		8BB7313F1E24EC5100520A45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7313E1E24EC5100520A45 /* ViewController.swift */; };
 		8BB731421E24EC5100520A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB731401E24EC5100520A45 /* Main.storyboard */; };
@@ -18,9 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8B3123921E35AB2F00FF5279 /* Floatable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Floatable.h; path = Sources/Floatable.h; sourceTree = SOURCE_ROOT; };
-		8B3123931E35AB2F00FF5279 /* Floatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Floatable.swift; path = Sources/Floatable.swift; sourceTree = SOURCE_ROOT; };
-		8B3123941E35AB2F00FF5279 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
+		8B4AB2A41E35B13F00E13FED /* Floatable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Floatable.h; sourceTree = "<group>"; };
+		8B4AB2A51E35B13F00E13FED /* Floatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floatable.swift; sourceTree = "<group>"; };
+		8B4AB2A61E35B13F00E13FED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BB7312B1E24EC2C00520A45 /* Floatable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Floatable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB7313A1E24EC5100520A45 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB7313C1E24EC5100520A45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,10 +48,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B4AB2A31E35B13F00E13FED /* Floatable */ = {
+			isa = PBXGroup;
+			children = (
+				8B4AB2A41E35B13F00E13FED /* Floatable.h */,
+				8B4AB2A51E35B13F00E13FED /* Floatable.swift */,
+				8B4AB2A61E35B13F00E13FED /* Info.plist */,
+			);
+			name = Floatable;
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		8BB731211E24EC2C00520A45 = {
 			isa = PBXGroup;
 			children = (
-				8BB7312D1E24EC2C00520A45 /* Floatable */,
+				8B4AB2A31E35B13F00E13FED /* Floatable */,
 				8BB7313B1E24EC5100520A45 /* Example */,
 				8BB7312C1E24EC2C00520A45 /* Products */,
 			);
@@ -65,16 +75,6 @@
 				8BB7313A1E24EC5100520A45 /* Example.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		8BB7312D1E24EC2C00520A45 /* Floatable */ = {
-			isa = PBXGroup;
-			children = (
-				8B3123921E35AB2F00FF5279 /* Floatable.h */,
-				8B3123931E35AB2F00FF5279 /* Floatable.swift */,
-				8B3123941E35AB2F00FF5279 /* Info.plist */,
-			);
-			path = Floatable;
 			sourceTree = "<group>";
 		};
 		8BB7313B1E24EC5100520A45 /* Example */ = {
@@ -97,7 +97,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B3123951E35AB2F00FF5279 /* Floatable.h in Headers */,
+				8B4AB2A71E35B13F00E13FED /* Floatable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +184,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B3123971E35AB2F00FF5279 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B3123961E35AB2F00FF5279 /* Floatable.swift in Sources */,
+				8B4AB2A81E35B13F00E13FED /* Floatable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

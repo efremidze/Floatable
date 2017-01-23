@@ -90,8 +90,10 @@ extension UIView {
         let label = UILabel()
         label.text = "+\(points)pts"
         label.textColor = color
-        label.font = UIFont.AvenirNext.DemiBold.size(17)
-        label.layer.addDropShadow()
+        label.font = .boldSystemFont(ofSize: 17)
+        label.layer.shadowOffset = CGSize(width: 0, height: 1)
+        label.layer.shadowRadius = 0.1
+        label.layer.shadowOpacity = 0.1
         self.superview!.addSubview(label)
         label.sizeToFit()
         label.center = self.center
