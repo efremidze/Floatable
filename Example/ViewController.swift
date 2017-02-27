@@ -10,17 +10,11 @@ import UIKit
 import Floatable
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+    @IBOutlet weak var button: UIButton!
+    
+    @IBAction func buttonTapped(_ button: UIButton) {
+        button.animate(UIImage(named: "heart"), direction: .top)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
 }
-

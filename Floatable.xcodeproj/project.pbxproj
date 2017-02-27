@@ -14,6 +14,7 @@
 		8BB731421E24EC5100520A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB731401E24EC5100520A45 /* Main.storyboard */; };
 		8BB731441E24EC5100520A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB731431E24EC5100520A45 /* Assets.xcassets */; };
 		8BB731471E24EC5100520A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB731451E24EC5100520A45 /* LaunchScreen.storyboard */; };
+		8BE4F5FE1E5908F200C623B7 /* Floatable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB7312B1E24EC2C00520A45 /* Floatable.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE4F5FE1E5908F200C623B7 /* Floatable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
